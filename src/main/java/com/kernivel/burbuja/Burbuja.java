@@ -39,10 +39,12 @@ public class Burbuja {
         }
         //Creamos un for para recorrer todo el vertor.
         for(int i = 0 ; i < cantidad ; i++){
-            //Creamos un for para recorrer desde la posicion de i hasta el final del vector
-            //Nota: este for inicia mas 1, esto es para hacer la comparacion del for anterior i con el numero siguiente j
-            //Explicacion: Si i = 0 tomamos el valor del vector numeros[0] posicion 0 y la comparamos con el mismo vector 
-            //numeros[j] que seria posicion j+1=1 de tal manera numeros[0] > numeros[1], de ser verdadero intecambiamos los valores
+            /*
+            Creamos un for para recorrer desde la posicion de i hasta el final del vector
+            Nota: este for inicia mas 1, esto es para hacer la comparacion del for anterior i con el numero siguiente j
+            Explicacion: Si i = 0 tomamos el valor del vector numeros[0] posicion 0 y la comparamos con el mismo vector 
+            numeros[j] que seria posicion j+1=1 de tal manera numeros[0] > numeros[1], de ser verdadero intecambiamos los valores
+            */
             for(int j = i+1 ; j < cantidad ; j++){
                 //Verificamos el numero mayor, de ser verdadero se intercambian
                 if(numeros[i] > numeros[j]){
@@ -64,5 +66,7 @@ public class Burbuja {
         }
     }
 }
-//El codigo burbuja se compone de dos for los cuales uno recorre todo el vector y el segundo recorre las posiciones faltantes que el
-//primero aun no recorre.
+/*
+El codigo burbuja se compone de dos for los cuales uno recorre todo el vector y el segundo recorre las posiciones faltantes que el
+primero aun no recorre.
+*/
