@@ -8,7 +8,7 @@ package com.kernivel.burbuja;
 import java.util.Scanner;
 /**
  *
- * @author UNG. Roberto Calero
+ * @author ING. Roberto Calero
  */
 public class Burbuja {
 
